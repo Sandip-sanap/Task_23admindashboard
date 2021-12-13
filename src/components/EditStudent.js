@@ -1,16 +1,13 @@
-import React,{useState,useContext,useEffect} from 'react'
+import React,{useState,useEffect} from 'react'
 import {useNavigate,useParams} from 'react-router-dom';
 import axios from 'axios';
 function EditStudent() {
 
     useEffect(()=>{
-        {
             if(params.id){
                 getData();
             }
-        }
-    },[])
-
+    },)
     let navigate = useNavigate();
     const params = useParams();
     let [name,setName]=useState("");
