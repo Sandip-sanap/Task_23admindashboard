@@ -19,12 +19,11 @@ function SideBar() {
                 {/* <!-- Nav Item - Dashboard --> */}
                 <li class="nav-item">
                     <Link to='/dashboard'>
-                    <a class="nav-link">
+                    <a class="nav-link" href="/">
                         <i class="fas fa-fw fa-tachometer-alt"></i>
                         <span>Dashboard</span></a>
                     </Link>
                 </li>
-
 
                 {/* <!-- Divider --> */}
                 <hr class="sidebar-divider"/>
@@ -36,7 +35,7 @@ function SideBar() {
 
                 <li class="nav-item">
                    <Link to='/add-student'>
-                   <a class="nav-link">
+                   <a class="nav-link" href="/">
                         <i class="fas fa-fw fa-tachometer-alt"></i>
                         <span>Add Student</span></a>
                    </Link>
@@ -44,12 +43,11 @@ function SideBar() {
 
                 <li class="nav-item">
                     <Link to='/all-students'>
-                    <a class="nav-link">
+                    <a class="nav-link" href="/">
                         <i class="fas fa-fw fa-tachometer-alt"></i>
                         <span>All Student</span></a>
                     </Link>
                 </li>
-
 
                 {/* <!-- Divider --> */}
                 <hr class="sidebar-divider"/>
